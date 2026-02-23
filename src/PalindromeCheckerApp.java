@@ -11,4 +11,3 @@ public class PalindromeCheckerApp {
         System.out.println(input+ " is a palindrome.");
     }
 }
-s
