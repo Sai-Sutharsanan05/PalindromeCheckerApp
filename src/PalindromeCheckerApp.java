@@ -1,7 +1,14 @@
 public class PalindromeCheckerApp {
     public static void main(String[] args) {
-        System.out.println("welcome to palindrome checker management system");
-        System.out.println("Versiom: 1.0");
-        System.out.println("system initialized successfully");
+     //write a logic for uc2
+        String input="madam";
+        for(int i=0;i<input.length()/2;i++){
+            if (input.charAt(i)!=input.charAt(input.length()-1-i)){
+                System.out.println(input+ " is not palindrome.");
+                return;
+            }
+        }
+        System.out.println(input+ " is a palindrome.");
     }
 }
+s
